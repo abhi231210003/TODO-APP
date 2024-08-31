@@ -1,0 +1,90 @@
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading{
+  color: #023047;
+  font-weight: 900;
+  transform: scale(2.5);
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom: 120px;
+}
+
+.list{
+  padding: 10px;
+  background-color:#efa4d4;
+  border-radius: 10px;
+  width: 28vw;
+  min-height: 30vh;
+}
+.create_form{
+  margin-bottom: 50px;
+}
+.create_form input{
+  width:300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+  border-radius: 5px;
+}
+
+.create_form button{
+  padding: 10px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.create_form button:hover{
+  background-color: rgb(10, 168, 10);
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: #ba4acd;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 8px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.task:hover{
+  background-color: #c56ba6;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.checkbox p:hover{
+  transform: scale(1.1);
+}
+
+.line_through{
+  text-decoration: line-through;
+}
+
+.checkbox .icons{
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div .icons{
+  cursor: pointer;
+}
+.task div .icons:hover{
+  transform: scale(1.2);
+}
